@@ -86,7 +86,7 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <net.kuama.documentscanner.presentation.PaperRectangle
+    <net.fk.SmartDoc.presentation.PaperRectangle
         android:id="@+id/cropHud"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

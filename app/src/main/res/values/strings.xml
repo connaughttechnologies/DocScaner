@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Scanner</string>
+    <string name="app_name">Smart Scan</string>
     <string name="toggle_flash">Toggle flash</string>
     <string name="null_corners">Nessun documento rilevato</string>
     <string name="confirm_document">Confirm document</string>

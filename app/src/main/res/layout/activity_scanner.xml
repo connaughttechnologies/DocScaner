@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/root_view"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+
     <ImageView
         android:id="@+id/opencv_preview"
         android:layout_width="wrap_content"
@@ -21,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <net.kuama.documentscanner.presentation.PaperRectangle
+    <net.fk.SmartDoc.presentation.PaperRectangle
         android:id="@+id/hud"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -31,7 +32,7 @@
         android:id="@+id/shutter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="100dp"
         android:background="@null"
         android:contentDescription="@string/take_picture"
         android:src="@drawable/ic_lens"
